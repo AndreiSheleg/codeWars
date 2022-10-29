@@ -1,5 +1,8 @@
 function greet(name){
-  return "Hello, " + name + "!";
-  if(name === "Johnny")
-    return "Hello, my love!";
+  let result = "";
+  result = "Hello, " + name + "!";
+   if(name === "Johnny") {
+    result = "Hello, my love!";  
+   };
+    return result;
 }
