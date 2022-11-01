@@ -1,0 +1,5 @@
+function hero(bullets, dragons){
+//Get Coding!
+ 
+  return 2 * dragons <= bullets ;
+}
