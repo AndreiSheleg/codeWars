@@ -1,0 +1,13 @@
+function disemvowel(str) {
+  let newStr = "";
+  let strLow = str.toLowerCase();
+  for (let i = 0; i < str.length; i++) {
+    if (strLow[i] === "a" || strLow[i] === "e" || strLow[i] === "i" || strLow[i] === "o" || strLow[i] === "u") {
+      newStr += "";
+    } else {
+      newStr += str[i];
+    };
+  };
+  
+  return newStr;
+}
