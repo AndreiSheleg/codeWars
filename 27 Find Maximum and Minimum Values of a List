@@ -1,0 +1,19 @@
+var min = function(list){
+  let listMin = 10 ** 30;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] < listMin) {
+      listMin = list[i];
+    };
+  };
+    return listMin;
+};
+
+var max = function(list){
+let listMax = - 10000000000000000000000000;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] > listMax) {
+      listMax = list[i];
+    };
+  };
+    return listMax;
+};
