@@ -1,0 +1,3 @@
+const removeSmallest = numbers => 
+// метод массивов - фильтр. В новый массив не вносим элемент, если индекс в исходном масссиве равен индексу минимального числа в исходном массиве
+  numbers.filter((element, index) => index !== numbers.indexOf(Math.min(...numbers)))
