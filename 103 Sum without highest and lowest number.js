@@ -1,6 +1,6 @@
 function sumArray(array) {
 
-if (array === null) {
+if (array == null) {
   return 0
 } else if (array.length < 2) {
   return 0;
