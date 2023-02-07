@@ -1,13 +1,13 @@
 const halvingSum = n => {
   let sum = n
   let divisor = 2
-  console.log(typeof(n) + ' ' + n)
-  
-  
+    
   for (let i = n; i >= 1 ; i--) {
-        sum = Math.floor(sum + i / divisor)
-    console.log('в цикле = ' + sum)
+  sum = Math.floor(sum + n / divisor)
   divisor *= 2
+    
   }
-return sum
+  
+  return sum
+  
 }
