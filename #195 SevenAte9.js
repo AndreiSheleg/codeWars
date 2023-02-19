@@ -1,4 +1,5 @@
 const sevenAte9 = str => {
+  if (str.length === 0) return ''
   let resultStr = str[0]
     
   for (let i = 1; i < str.length - 1; i++) {
