@@ -1,12 +1,12 @@
 class Dinglemouse{
 
   constructor( firstName, lastName ){
-    this._firstName = firstName
-    this._lastName = lastName
+    this.firstName = firstName
+    this.lastName = lastName
   }
   
   getFullName(){
-    return `${this._firstName} ${this._lastName}`.trim()
+    return `${this.firstName} ${this.lastName}`.trim()
   }
   
 }
