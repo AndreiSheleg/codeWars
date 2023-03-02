@@ -6,3 +6,6 @@ const narcissistic = value => {
   
   return sum === value
 }
+
+
+// const narcissistic = value => +(''+value).split('').reduce((s,n,_,a) => s + Math.pow(n,a.length),0) == value
