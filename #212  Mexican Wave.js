@@ -10,3 +10,6 @@ const wave = str => {
   }
   return waveArr
 }
+
+
+// const wave = str => Array.from({length:str.length}, (_,i) => str.slice(0,i)+str[i].toUpperCase()+str.slice(i+1)).filter(x => x!=str);
