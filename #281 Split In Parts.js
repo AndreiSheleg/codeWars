@@ -1,10 +1,23 @@
-const splitInParts = (s, partLength) => {
+const swap = string => {
   let result = []
+  let arrString = string.split('')
   
-  for (let i = 0; i < s.length; i += partLength) {
-    let addedEl = s.slice( i, i + partLength)
-    result = [...result, addedEl]
+  if(!string) return ''
   
+  for (let i = 0; i < string.length; i++) {
+    let condition = arrString[i] === 'a' ? 
+    true : arrString[i] === 'e' ?
+    true : arrString[i] === 'i' ?
+    true : arrString[i] === 'o' ?
+    true : arrString[i] === 'u' ?
+    true : false
+    
+    if (condition) {
+      result = [...result, arrString[i].toUpperCase()]
+    } else {
+      result = [...result, arrString[i]]
+    }
+    
   }
-  return result.join(' ')
+  return result.join('')
 }
