@@ -1,1 +1,1 @@
-const meeting = x => x.indexOf('0') < 0 ? 'None available!' : x.indexOf('0')
+const meeting = x => x.indexOf('O') < 0 ? 'None available!' : x.indexOf('O')
