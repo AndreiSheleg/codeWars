@@ -4,8 +4,8 @@ const partsSums = ls => {
   let currentSum = 0
 
   for (let i = 0; i <= ls.length; i++) {
-    result = [...result, totalSum - currentSum]
-    //result.push(totalSum - currentSum);
+ //   result = [...result, totalSum - currentSum]
+    result.push(totalSum - currentSum)
     currentSum += ls[i] || 0
   }
 
