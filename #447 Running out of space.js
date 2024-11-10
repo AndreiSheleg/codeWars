@@ -10,3 +10,8 @@ const spacey = array => {
 
   return result
 }
+
+// const spacey = array => {
+// 	let currentString = ''
+// 	return array.map( el => currentString += el )
+// }
