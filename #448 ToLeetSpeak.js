@@ -16,3 +16,5 @@ const toLeetSpeak = str => {
 //   console.log('worfsArr: ', worfsArr)
 
 }
+
+  // return str.split('').map(char => alpha[char] || char).join('') - short solution
