@@ -12,3 +12,7 @@ const bubblesortOnce = a => {
   
   return arr
 }
+
+// const bubblesortOnce = a => {
+// return [...a].map( (el, i, arr) => el > arr[i+1] ? (arr[i] = arr[i+1], arr[i+1] = el, arr[i]) : el )
+// } - short solution
