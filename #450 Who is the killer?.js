@@ -9,3 +9,7 @@ const killer = (suspectInfo, dead) => {
         }
     }
 }
+
+// const killer = (suspectInfo, dead) => {
+//  return Object.keys(suspectInfo).find( el => dead.every( person => suspectInfo[el].includes(person) ) )
+// } - short solution
