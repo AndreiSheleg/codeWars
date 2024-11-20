@@ -16,3 +16,7 @@ const sumNoDuplicates = numList => {
     
     return sum
 }
+
+// const sumNoDuplicates = numList => {
+//   return numList.filter( el=> numList.indexOf(el) == numList.lastIndexOf(el)).reduce((a,b)=> a + b, 0)
+// }
