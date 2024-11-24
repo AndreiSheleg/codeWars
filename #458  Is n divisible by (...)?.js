@@ -11,3 +11,7 @@ const isDivisible = (n, ...args) => {
 
     return true
 }
+
+// const isDivisible = (firstArg, ...restArgs) => {
+//   return restArgs.every(el => firstArg % el === 0);
+// }
