@@ -10,3 +10,8 @@ const minValue = values => {
     
     return result
 }
+
+
+// const minValue = values => {
+//   return parseInt([...new Set(values)].sort().join(''))
+// }
