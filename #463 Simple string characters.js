@@ -19,3 +19,11 @@ const solve = s => {
 
     return [uppercaseCount, lowercaseCount, numberCount, specialCount]
 }
+
+// const solve = s => {
+//   let uppercaseCount = s.match(/[A-Z]/g)||[]
+//   let lowercaseCount = s.match(/[a-z]/g)||[]
+//   let numberCount = xs.match(/[0-9]/g)||[]
+//   let specialCount = s.match(/[^A-Z0-9]/gi)||[]
+//   return [uppercaseCount.length, lowercaseCount.length, numberCount.length, specialCount.length]
+// }
